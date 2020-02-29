@@ -1,4 +1,4 @@
-// Maximum path sum
+// Problem 18/67
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -14,7 +14,7 @@ using namespace std;
 #define mod(a) a%(int)(1e9+7)
 #define fast ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 
-ll maxi_sum(vector<vector<ll>> arr,vector<vector<ll>> v,int i,int j)   // here i represent current row
+ll maxi_sum(vector<vector<ll>> arr,vector<vector<ll>> v,int i,int j)   // here i and j represent current row and column respectvely
 {
     if (i>=v.size())
         return 0;
